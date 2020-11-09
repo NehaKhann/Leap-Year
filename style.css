@@ -1,0 +1,85 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #14274e;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+div#leapyear {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+form {
+    width:400px;
+    height: 500px;
+    background: #9ba4b4;
+    padding: 100px;
+    border: 1px solid #282721;
+    box-shadow: 0 1px 9px #394867;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+    color:#14274e;
+}
+
+.inputwrap {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputwrap label {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input[type="number"] {
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 6px 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    color:#14274e;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+
+div#result {
+    background: #14274e;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    display: none;
+}
